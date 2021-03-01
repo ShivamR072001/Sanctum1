@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.navbar{
+    flex-direction: column;
+}
+
+.navbar ul li a{
+    /* font-size: 1rem; */
+    padding: 0px 10px;
+    padding-bottom: 14px;
+    height: 22px;
+    border-radius: 14px;
+}
+
+/* Home Section */
+#home{
+    height: 648px;
+    padding: 0px 12px;
+}
+
+#home::before{
+    content: "";
+    background: url(../mobilw.jpg) no-repeat center center/cover;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#home p{
+    font-size: 1.3rem;
+}
+
+/* Services section */
+#services{
+    /* flex-direction: column; */
+    display: grid;
+    margin: 8px;
+    padding: 4px;
+}
+
+#services .box{
+    font-size: 1.3rem;
+}
+
+/* Partners section */
+.partners{
+    flex-wrap: wrap;
+}
+
+.partners img{
+    width: 124px;
+    padding: 14px;
+    height: auto;
+}
+
+/* feedback section */
+.feedbox form{
+    width: 68%;
+}
+
+/* footer */
+
+
+
+/* Utility classes*/
+.h-primary{
+    font-size: 42px;
+}
+
+.btn{
+    font-size: 12px;
+    padding: 4px 8px;
+}
